@@ -1,0 +1,164 @@
+/*=============================================
+=            Section Dashboard_data            =
+=============================================*/
+
+.Dashboard_data {
+    @media (max-width: 991px) {
+       padding: 20px 0;
+    }
+    .Dashboard_data_links {
+        border: 1px solid #e3e3e3;
+        height: 100vh;
+        @media (max-width: 991px) {
+            height: auto;
+        }
+        @media (max-width: 500px) {
+            border: none;
+        }
+        .nav-tabs {
+            border: none !important;
+            .nav-item {
+                width: 100%;
+                .nav-link {
+                    color: $color-red;
+                    border: 1px solid #e3e3e3;
+                    font: normal normal normal 16px/19px Roboto;
+                    letter-spacing: 0px;
+                    text-transform: uppercase;
+                    padding: 15px;
+                    display: flex;
+                    align-items: center;
+                    transition: $transitionAll;
+                    @media (max-width: 991px) {
+                        font-size: 14px;
+                    }
+                    &.active {
+                        background: #c50000 0% 0% no-repeat padding-box;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*=====  End of Section Dashboard_data  ======*/
+
+/*=============================================
+=            Section Dashboard_connected            =
+=============================================*/
+
+.Dashboard_connected {
+    border: solid 1px $color-red;
+    padding: 15px;
+    margin-bottom: 25px;
+    .Dashboard_connected_img {
+        border-right: solid 1px #707070;
+        height: 100%;
+        display: flex;
+        @media (max-width: 991px) {
+            border: none;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .Dashboard_connected_text {
+        @media (max-width: 991px) {
+            text-align: center;
+        }
+        h3 {
+            font: normal normal medium 24px/29px Roboto;
+            letter-spacing: 0px;
+            color: $color-red;
+        }
+        h6 {
+            font: normal normal normal 14px/17px Roboto;
+            letter-spacing: 0px;
+            color: #373737;
+            margin: 0;
+        }
+    }
+}
+
+/*=====  End of Section Dashboard_connected  ======*/
+
+/*=============================================
+=            Section risk_readings            =
+=============================================*/
+
+.risk_readings {
+    .col-md-4 {
+        @media (max-width: 991px) {
+            margin-bottom: 30px;
+        }
+    }
+    .risk {
+        border: solid 1px $color-red;
+        padding-bottom: 5px;
+        height: 100%;
+
+        h6 {
+            background-color: $color-red;
+            color: $color-white;
+            font-size: 14px;
+            padding: 10px;
+            margin: 0;
+        }
+        img {
+            width: 100%;
+            padding: 5px 5px 0 5px;
+        }
+        .risk_discount {
+            background-color: $color-red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            width: 95%;
+            margin: 0 auto;
+            span {
+                color: $color-white;
+                font-size: 16px;
+                padding-left: 10px;
+            }
+            a {
+                background-color: $color-white;
+                color: #000;
+                font-size: 14px;
+                width: 86px;
+                height: 46px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+.readings {
+    border: solid 1px $color-red;
+    padding-bottom: 5px;
+    height: 100%;
+
+    h6 {
+        background-color: $color-red;
+        color: $color-white;
+        font-size: 14px;
+        padding: 10px;
+        margin: 0 0 10px;
+    }
+    p {
+        font: normal normal normal 14px/17px Roboto;
+        color: $color-red;
+        margin: 0 0 10px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+
+        span {
+            font: normal normal normal 14px/17px Roboto;
+            color: #373737;
+        }
+    }
+}
+/*=====  End of Section risk_readings  ======*/

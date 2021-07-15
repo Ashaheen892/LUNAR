@@ -1,0 +1,102 @@
+/*=============================================
+=            Section nav_home            =
+=============================================*/
+
+.nav_home {
+  
+  padding: 20px 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  @media (max-width: 991px) {
+    padding: 15px 0;
+  }
+  .nav{
+    ul {
+      width: 50%;
+    }
+    .ul_logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .logo {
+        img {
+          @media (max-width: 500px) {
+            width: 45px;
+          }
+        }
+      }
+    }
+    .nav_links_all {
+      display: flex;
+      align-items: center;
+      li {
+        padding: 10px;
+        @media (max-width: 991px) {
+          padding: 5px;
+        }
+        .nav_links {
+          font: normal normal normal 16px/19px Roboto;
+          letter-spacing: 0px;
+          color: $color-white;
+          position: relative;
+          @media (max-width: 991px) {
+            font-size: 14px;
+          }
+          &::after {
+            content: " ";
+            position: absolute;
+            background-color: $color-red;
+            width: 0;
+            height: 3px;
+            left: 50%;
+            bottom: -34px;
+            opacity: 0;
+            transition: $transitionAll;
+          }
+          &:hover {
+            &::after {
+              width: 100%;
+              left: 0;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+/*=====  End of Section nav_home  ======*/
+
+/*=============================================
+=            Section nav_pages            =
+=============================================*/
+
+.nav_pages {
+  background-color: $color-white;
+  border: 1px solid $color-red;
+  position: static !important;
+  .ul_logo {
+    .logo {
+      img {
+        width: 150px;
+        @media (max-width: 991px) {
+          width: 100px !important;
+        }
+      }
+    }
+  }
+  .nav_links_all {
+    .nav_links {
+      color: $color-gray !important;
+      &:hover {
+        color: $color-red !important;
+      }
+    }
+  }
+}
+
+/*=====  End of Section nav_pages  ======*/

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" name="description" />
+    <title>LUNAR | Dashboard </title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" data-sizes="100w" href="dist/assets/imges/503.png" data-sizes="100w" />
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="dist/assets/css/font-awesome.min.css">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="dist/assets/css/owl.carousel.min.css" />
+    <!-- my style -->
+    <link rel="stylesheet" href="dist/assets/css/main.min.css" />
+</head>
+
+<body>
+
+
+    <!-- start nav -->
+    <nav class="nav_home nav_pages">
+        <div class="container">
+            <div class="nav">
+                <ul class="ul_logo">
+                    <li><a href="index.html" class="logo"><img src="dist/assets/imges/logo-2.png" alt="logo"></a></li>
+                </ul>
+                <ul class="nav_links_all">
+                    <li><a href="pricing.html" class="nav_links">Pricing</a></li>
+                    <li><a href="dashboard.html" class="nav_links">Dashboard</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!-- end nav -->
+    <!-- start pricing_data -->
+    <section class="Dashboard_data">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="Dashboard_data_links">
+                        <ul class="nav nav-tabs tabs_big" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#Dashboard" role="tab"
+                                    aria-controls="home" aria-selected="true">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#Develop" role="tab"
+                                    aria-controls="profile" aria-selected="false"> Develop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#Upgrade" role="tab"
+                                    aria-controls="contact" aria-selected="false">Upgrade</a>
+                            </li>
+                        </ul>
+                        <div class="dropdown tabs_small">
+                            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Choose Package
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#Dashboard"
+                                            role="tab" aria-controls="home" aria-selected="true">Dashboard</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#Develop"
+                                            role="tab" aria-controls="profile" aria-selected="false">Develop</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#Upgrade"
+                                            role="tab" aria-controls="contact" aria-selected="false">Upgrade</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-9">
+
+                    <div class="pricing_tabs">
+
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="Dashboard" role="tabpanel"
+                                aria-labelledby="home-tab">
+                                <div class="Dashboard_data_all">
+                                    <h2>Dashboard</h2>
+                                    <div class="Dashboard_connected">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="Dashboard_connected_img">
+                                                    <img src="dist/assets/imges/pricing-1.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="Dashboard_connected_text">
+                                                    <h3>Connected</h3>
+                                                    <h6>Model: lander5</h6>
+                                                    <h6>Serial: l3s5g-d8</h6>
+                                                    <h6>Duration: 3 hours</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="risk_readings">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="risk">
+                                                    <h6>Risk</h6>
+                                                    <img src="dist/assets/imges/chart-risk.png" alt="">
+                                                    <div class="risk_discount">
+                                                        <span>20%</span>
+                                                        <a href="#">Risk</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="readings">
+                                                    <h6>Risk</h6>
+                                                    <p>Battery: <span>55%</span> </p>
+                                                    <p>Voltage: <span>48.6 V</span> </p>
+                                                    <p>Speed: <span>3 m/s</span> </p>
+                                                    <p>Location: <span>Cairo</span> </p>
+                                                    <p>Signal strength: <span>77%</span> </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="Develop" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="Dashboard_data_all">
+                                    <h2>Develop</h2>
+                                    <div class="Dashboard_connected">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="Dashboard_connected_img">
+                                                    <img src="dist/assets/imges/pricing-1.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="Dashboard_connected_text">
+                                                    <h3>Connected</h3>
+                                                    <h6>Model: lander5</h6>
+                                                    <h6>Serial: l3s5g-d8</h6>
+                                                    <h6>Duration: 3 hours</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="risk_readings">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="risk">
+                                                    <h6>Risk</h6>
+                                                    <img src="dist/assets/imges/chart-risk.png" alt="">
+                                                    <div class="risk_discount">
+                                                        <span>20%</span>
+                                                        <a href="#">Risk</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="readings">
+                                                    <h6>Risk</h6>
+                                                    <p>Battery: <span>55%</span> </p>
+                                                    <p>Voltage: <span>48.6 V</span> </p>
+                                                    <p>Speed: <span>3 m/s</span> </p>
+                                                    <p>Location: <span>Cairo</span> </p>
+                                                    <p>Signal strength: <span>77%</span> </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="Upgrade" role="tabpanel" aria-labelledby="contact-tab">
+                                <div class="Dashboard_data_all">
+                                    <h2>Upgrade</h2>
+                                    <div class="Dashboard_connected">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="Dashboard_connected_img">
+                                                    <img src="dist/assets/imges/pricing-1.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="Dashboard_connected_text">
+                                                    <h3>Connected</h3>
+                                                    <h6>Model: lander5</h6>
+                                                    <h6>Serial: l3s5g-d8</h6>
+                                                    <h6>Duration: 3 hours</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="risk_readings">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="risk">
+                                                    <h6>Risk</h6>
+                                                    <img src="dist/assets/imges/chart-risk.png" alt="">
+                                                    <div class="risk_discount">
+                                                        <span>20%</span>
+                                                        <a href="#">Risk</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="readings">
+                                                    <h6>Risk</h6>
+                                                    <p>Battery: <span>55%</span> </p>
+                                                    <p>Voltage: <span>48.6 V</span> </p>
+                                                    <p>Speed: <span>3 m/s</span> </p>
+                                                    <p>Location: <span>Cairo</span> </p>
+                                                    <p>Signal strength: <span>77%</span> </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end pricing_data -->
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <!-- popper js -->
+    <!-- bootstrap 4 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- owl carousel js -->
+    <script src="dist/assets/js/owl.carousel.min.js"></script>
+    <!-- my script -->
+    <script src="dist/assets/js/app.min.js"></script>
+</body>
+
+</html>
